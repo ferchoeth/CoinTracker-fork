@@ -22,6 +22,8 @@ export default function SwapComponent() {
     coinOne: "",
     coinTwo: "",
   });
+
+  console.log(coinCalcValues);
   const [changeView, setChangeView] = useState<any>(true);
 
   const changeCoin = () => {
